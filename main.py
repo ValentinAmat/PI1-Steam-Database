@@ -96,7 +96,7 @@ def PlayTimeGenre(genero: str):
             return {f"Año de lanzamiento con más horas jugadas para Género {genero}" : año_max_playtime}
 
 
-@app.get("/userForGenre/")
+@app.get("/UserForGenre/")
 def UserForGenre(genero: str):
 
     # Verificamos si la variable introducida es una cadena de texto:
