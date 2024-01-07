@@ -11,26 +11,26 @@ app = FastAPI()
 # Carga de archivos: ----------------------------------------------------------------------------------------
 
 # PlayTimeGenre:
-df_playtimegenre_final = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\df_playtimegenre_final.csv")
+df_playtimegenre_final = pd.read_csv(r"Archivos Producidos\Data para Endpoints\df_playtimegenre_final.csv")
 
 # UserForGenre:
-df_userforgenre_final = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\df_userforgenre_final.csv")
+df_userforgenre_final = pd.read_csv(r"Archivos Producidos\Data para Endpoints\df_userforgenre_final.csv")
 
 # UsersRecommend:
-df_usersrecommend = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\df_usersrecommend.csv")
+df_usersrecommend = pd.read_csv(r"Archivos Producidos\Data para Endpoints\df_usersrecommend.csv")
 
 # UsersWorstDeveloper:
-df_usersworstdeveloper = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\df_usersworstdeveloper.csv")
+df_usersworstdeveloper = pd.read_csv(r"Archivos Producidos\Data para Endpoints\df_usersworstdeveloper.csv")
 
 # sentiment_analysis:
-df_sentiment_analysis = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\df_sentiment_analysis.csv")
+df_sentiment_analysis = pd.read_csv(r"Archivos Producidos\Data para Endpoints\df_sentiment_analysis.csv")
 
 # recomendacion_juego:
-df_recom_game = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\df_recom_game.csv")
+df_recom_game = pd.read_csv(r"Archivos Producidos\Data para Endpoints\df_recom_game.csv")
 
 # recomendacion_usuario:
-user_df = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\user_df.csv")
-videogames_df = pd.read_csv(r"..\Archivos Producidos\Data para Endpoints\videogames_df.csv")
+user_df = pd.read_csv(r"Archivos Producidos\Data para Endpoints\user_df.csv")
+videogames_df = pd.read_csv(r"Archivos Producidos\Data para Endpoints\videogames_df.csv")
 # también cargaremos la función "recomendacion_juego" que se usará en "recomendacion_usuario":
 def recomendacion_juego(item_id):
 
